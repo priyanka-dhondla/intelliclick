@@ -25,11 +25,7 @@
       "react-app",
       "react-app/jest"
     ],
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+   
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -40,5 +36,13 @@
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.45",
     "tailwindcss": "^3.4.10"
+  },
+  "browserslist": {
+  
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
