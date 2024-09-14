@@ -1,0 +1,67 @@
+/* Custom styles for CityTable component */
+
+/* Style the search input */
+.search-input {
+    border-radius: 0.25rem; /* Rounded corners */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Light blue shadow */
+    width: 50%; /* Adjust this width to your preference */
+    max-width: 400px; /* Optional: set a maximum width */
+    padding: 0.5rem; /* Add some padding for better look */
+    margin: auto; /* Center the input horizontally if you want */
+    display: block; /* Ensure it's a block element for margin auto to work */
+  }
+  
+  /* Style for table link (city name) */
+  .city-link {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .city-link:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue for hover effect */
+  }
+  
+  /* Add a shadow to the table */
+  .table {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add rounded corners to table */
+  .table-bordered {
+    border-radius: 0.25rem;
+  }
+  
+  /* Center-align text in table headers and data cells */
+  .table th, .table td {
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Additional styling for table headers */
+  .table th {
+    font-weight: bold; /* Make table headers bold */
+    background-color: #f8f9fa; /* Light grey background for headers */
+  }
+  
+  /* Optional: Add padding to table cells for better spacing */
+  .table td, .table th {
+    padding: 0.75rem; /* Adjust padding as needed */
+  }
+  
+  /* Style for loading spinner */
+  .spinner-border {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  /* Add spacing and center align heading */
+  h1 {
+    font-size: 2.5rem;
+    color: #343a40; /* Dark color for heading */
+  }
+  
+  /* Add hover effect to table rows */
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1; /* Light grey for hover */
+  }
+  
