@@ -11,11 +11,13 @@ This is a weather information web application built with React that displays cur
 - Includes icons for weather conditions, temperature, humidity, and wind speed
 - Interactive map with a marker and popup showing the city name
 
-### Install dependencies and run 
+### Install dependencies and start 
 
 npm install && npm start
 
 #### Deployment
 
 https://intelliclick-final.vercel.app/
+
+
 
